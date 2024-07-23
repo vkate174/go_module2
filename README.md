@@ -13,3 +13,7 @@
   git init # инициализация репозитория
   git add . # добавить все файлы в track
   git commit -m 'описание' #сделать коммит
+
+  git status -
+  git diff -
+  git diff --color-words
