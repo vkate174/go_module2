@@ -1,0 +1,29 @@
+.banner {
+    height: 823px;
+    position: relative;
+}
+.banner:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("../img/header.png");
+    width: 675px;
+    height: 762px;
+    z-index: 0;
+}
+.banner__title {
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 150px;
+    text-transform: uppercase;
+    letter-spacing: -0.1em;
+}
+.banner__subtitle {
+    width: 400px;
+    font-size: 28px;
+    line-height: 50px;
+    padding-left: 100px;
+    width: 100%;
+}

@@ -1,0 +1,68 @@
+.about__texts{
+  margin-bottom: 48px;
+} 
+
+.about__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  white-space: pre-line;
+  padding-bottom: 28px; 
+}
+
+.about__text:last-of-type {
+  padding-bottom: 0;
+}
+
+.blockquote__quote {
+  font-size: 44px;
+  line-height: 114%;
+  position: relative;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 40px;
+  margin-left: 39px ;
+
+}
+
+.blockquote__quote::before {
+  content: "\201C";
+  color: #6c0287;
+  font-weight: 900;
+  font-size: 44px;  
+  position: absolute;
+  left: -35px;
+  top: -10px;
+}
+
+.blockquote__quote::after {
+  content: "\201D";
+  color: #6c0287;
+  font-weight: 900;
+  font-size: 44px;
+  padding-left: 10px;
+
+}
+
+.blockquote__author {
+  display: flex;
+  padding-left: 111px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  font-style: normal;
+}
+
+.blockquote__author::before {
+  content: " ";
+  width: 80px;
+  height: 80px;
+  background-image: url("../img/author.png");
+  background-repeat: no-repeat;
+  margin: auto 30px auto 0;
+}
+
+.about__section {
+  display: flex;
+  column-gap: 80px;
+}
