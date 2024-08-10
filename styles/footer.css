@@ -1,3 +1,16 @@
+.section-footer {
+  background: linear-gradient(180.00deg, rgb(27, 26, 27),rgb(55, 10, 55) 100%);
+  padding-bottom: 10px;
+}
+
+.footer__contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 156px;
+  /* flex-direction: column; */
+  /* align-content: space-between; */
+}
+
 .contacts__list {
   display: flex;
   flex-direction: column;
@@ -89,3 +102,27 @@
   background-image: url("../img/socialStumbleupon.svg");
 }
 
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0%;
+}
+
+.footer-info-developer {
+  width: 157px;
+}
+
+.footer__developer {
+  margin-bottom: 6px;
+}
+
+.footer__developer-link {
+  display: block;
+  width: 157px;
+  text-align: end;
+}

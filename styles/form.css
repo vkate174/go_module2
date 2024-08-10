@@ -1,9 +1,40 @@
+.section__form {
+  background-color: var(--main-purple);
+  padding: 80px 0;
+}
+
+.fieldset {
+  margin-bottom: 60px;
+}
+
+.legend {
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.lable {
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+
 .bordGame{
 
 }
 
 .bordGame__input{
-
+  width: 25px;
+  height: 25px;
 }
 
 .bordGame__label{
@@ -19,7 +50,9 @@
 }
 
 .consoles__input{
-
+  margin-right: 12px;
+  width: 27px;
+  height: 27px;
 }
 
 .consoles__label{
@@ -27,7 +60,19 @@
 }
 
 .consoles__legend{
+  margin-bottom: 23px;
+}
 
+.consoles__list {
+  /* display: flex;
+  flex-direction: column;
+  gap: 20px; */
+}
+
+.form__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .extra{
@@ -35,7 +80,8 @@
 }
 
 .extra__input{
-
+  width: 25px;
+  height: 25px;
 }
 
 .extra__label{
@@ -51,19 +97,44 @@
 }
 
 .form-halls{
-
+  
 }
 
 .form-halls__input{
+  opacity:0;
+}
+
+.form-halls__label {
+  color: black;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 250px;
+  height: 55px;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 
 }
 
-.form-halls__label{
+.form-halls__list {
+  /* border-radius: 8px;
+  background: rgb(255, 255, 255); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
 
-.form-information{
-
+.form-information {
+  
 }
 
 .form-information__info-contacts{
@@ -91,27 +162,31 @@
 }
 
 .form-kit{
-
-}
-
-.form-kit__bordGame{
   
 }
 
+.form-kit__bordGame {
+  display: flex;
+  flex-direction: column;
+}
+
 .form-kit__consoles{
-
+  display: flex;
+  flex-direction: column;
 }
 
-.form-kit__extra{
-
+.form-kit__extra {
+  display: flex;
+  flex-direction: column;
 }
+
 
 .form-kit__legend{
 
 }
 
-.form__body{
-
+.form__body {
+  
 }
 
 .form__chekbox{
@@ -119,7 +194,22 @@
 }
 
 .form__reservation{
+  display: flex;
+  justify-content: flex-end;
+  }
 
+.form__btn {
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  color: rgb(108, 2, 135);
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 16px 50px;
 }
 
 .info-contacts{
@@ -138,9 +228,11 @@
 
 }
 
-.info-date__input{
+.info-date__input {
+
 
 }
+
 
 .info-date__label{
 
@@ -157,3 +249,19 @@
 .info-person__label{
 
 }
+
+.form-kit__inventory {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form__title {
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
+  }

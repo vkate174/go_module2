@@ -3,6 +3,17 @@
 }
 
 .inventory__heading {
+  position: absolute;
+  top: 166px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 300px;
 
 }
 
@@ -11,7 +22,7 @@
 }
 
 .inventory__object {
-
+  position: relative;
 }
 
 .inventorys {
@@ -23,7 +34,10 @@
 }
 
 .inventorys__list {
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+  /* flex-direction: row; */
 }
 
 .inventorys__title {

@@ -27,3 +27,41 @@
     padding-left: 100px;
     width: 100%;
 }
+
+.banner__four {
+    color: rgb(205, 6, 255);
+    font-family: Arial;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 141px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner__new {
+    color: rgb(205, 6, 255);
+    font-family: Arial;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 106px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.banner__btn {
+    border-radius: 10px;
+    background: rgb(108, 2, 135);
+    padding: 25px 69px;
+}
+
+.banner__down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+
+}
+
+.banner__down-img {
+    z-index: 1;
+}
