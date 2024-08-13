@@ -53,10 +53,11 @@
   letter-spacing: 0%;
   text-align: left;
   text-transform: uppercase;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-basis: 280px;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  padding: 12px 32px 13px;
+  /* flex-basis: 280px; */
   margin-top: 8px;
   margin-bottom: 3px;
 }

@@ -45,17 +45,22 @@
         <div class="banner">
           <h1 class="banner__title">Game over</h1>
           <p class="banner__subtitle">Новый формат игр и отдыха</p>
-          <div class="banner__">
-            <p class="banner__four">4</p>
-            <p>Тематических зала</p>
-            <p class="banner__new">New</p>
-            <p>Новейшая аппаратура</p>
-            <a href="#reservation" class="banner__btn">Забронированить</a>
+          <div class="banner__under">
+            <div class="banner__advantages">
+              <div class="banner__hall">
+                <p class="banner__four">4</p>
+                <p class="banner__text">Тематических зала</p>                
+              </div>
+              <div class="banner__equipment">
+                <p class="banner__new">new</p>
+                <p class="banner__text">Новейшая аппаратура</p>                      
+              </div>
+            </div>
+            <a href="#reservation" class="banner__btn">Забронировать</a>
             <a href="#inventory" class="banner__down">
               <img src="../img/down.svg" class="banner__down-img">
-            </a>            
+            </a>                  
           </div>
-
         </div>
       </div>
     </section>
@@ -129,7 +134,7 @@
       </div>
     </section>
 
-    <section class="section section__form">
+    <section class="section section_form">
       <div class="container">
         <h2 id="reservation" class="section-title" >Забронировать зал просто</h2>
         <form action="https://jsonplaceholder.typicode.com/posts" class="form" method="post" enctype="application/x-www-form-urlencoded">
@@ -162,54 +167,54 @@
                 <fieldset class="form-kit__consoles consoles">
                   <legend class="consoles__legend legend">Приставка:</legend>
                   <div class="consoles__list form__list">
-                    <label class="consoles__label label">
-                      <input type="radio" name="gameConsole" value="PlayStation" class="consoles__input">PlayStation
+                    <label class="consoles__label form__label">
+                      <input type="radio" name="gameConsole" value="PlayStation" class="consoles__input form__input">PlayStation 5
                     </label>
     
-                    <label class="consoles__label">
-                      <input type="radio" name="gameConsole" value="Sega Mega Drive" class="consoles__input">Sega Mega Drive
+                    <label class="consoles__label form__label">
+                      <input type="radio" name="gameConsole" value="Sega Mega Drive" class="consoles__input form__input">Sega Mega Drive
                     </label>
     
-                    <label class="consoles__label">
-                      <input type="radio" name="gameConsole" value="X-box One S" class="consoles__input">X-box One S
+                    <label class="consoles__label form__label">
+                      <input type="radio" name="gameConsole" value="X-box One S" class="consoles__input form__input">X-box One S
                     </label>
     
-                    <label class="consoles__label">
-                      <input type="radio" name="gameConsole" value="Dendy" class="consoles__input">Dendy
+                    <label class="consoles__label form__label">
+                      <input type="radio" name="gameConsole" value="Dendy" class="consoles__input form__input">Dendy
                     </label>                    
                   </div>
                 </fieldset>
   
                 <fieldset class="form-kit__bordGame bordGame">
                   <legend class="bordGame__legend legend">Настольные игры:</legend>
-                  <div class="consoles__list form__list">
-                    <label class="bordGame__label">
-                      <input type="checkbox" name="boardGame" value="Jenga" class="bordGame__input">Jenga
+                  <div class="bordGame__list form__list">
+                    <label class="bordGame__label form__label">
+                      <input type="checkbox" name="boardGame" value="Jenga" class="bordGame__input form__input">Jenga
                     </label>
     
-                    <label class="bordGame__label">
-                      <input type="checkbox" name="boardGame" value="Monopoly" class="bordGame__input">Monopoly
+                    <label class="bordGame__label form__label">
+                      <input type="checkbox" name="boardGame" value="Monopoly" class="bordGame__input form__input">Monopoly
                     </label>
     
-                    <label class="bordGame__label">
-                      <input type="checkbox" name="boardGame" value="Munchkin" class="bordGame__input">Манчкин
+                    <label class="bordGame__label form__label">
+                      <input type="checkbox" name="boardGame" value="Munchkin" class="bordGame__input form__input">Манчкин
                     </label>
     
-                    <label class="bordGame__label">
-                      <input type="checkbox" name="boardGame" value="Alias" class="bordGame__input">Alias
+                    <label class="bordGame__label form__label">
+                      <input type="checkbox" name="boardGame" value="Alias" class="bordGame__input form__input">Alias
                     </label>
                   </div>
                 </fieldset>
   
                 <fieldset class="form-kit__extra extra">
                   <legend class="extra__legend legend">Дополниительно:</legend>
-                  <div class="form__list">
-                    <label class="extra__label">
-                      <input type="checkbox" name="inAddition" value="Karaoke" class="extra__input">Караоке
+                  <div class="extra__list form__list">
+                    <label class="extra__label form__label">
+                      <input type="checkbox" name="inAddition" value="Karaoke" class="extra__input form__input">Караоке
                     </label>
     
-                    <label class="extra__label">
-                      <input type="checkbox" name="inAddition" value="VR" class="extra__input">VR
+                    <label class="extra__label form__label">
+                      <input type="checkbox" name="inAddition" value="VR" class="extra__input form__input">VR
                     </label>
                   </div>
                 </fieldset>
@@ -218,63 +223,67 @@
 
             <fieldset class="form-information fieldset">
               <legend class="form-information__legend form__title">Выберите дату и время</legend>
-              <fieldset class="form-information__info-date info-date">
-                <!-- <label class="info-date__label">
-                  Дата
-                  <input type="date" name="date" required class="info-date__input" value="Дата">
-                </label>
+              <div class="form-information__body">
+                <fieldset class="form-information__info-date info-date">
+                  <!-- <label class="info-date__label">
+                    Дата
+                    <input type="date" name="date" required class="info-date__input" value="Дата">
+                  </label>
+  
+  
+                  <label class="info-date__label">
+                    Время
+                    <input type="time" name="time" required class="info-date__input">
+                  </label> -->
+                  <div class="info-datetime">
+                    <select name="date" required class="info-date__list">
+                      <option value="" disabled selected hidden class="info-date__item">Дата</option> <!--отображается как плейсхолдер-->
+                      <option value="11.09.2024" class="info-date__item">11.09.2024</option>
+                      <option value="20.09.2024" class="info-date__item">20.09.2024</option>
+                    </select>
+    
+                    <select name="numberOfPerson" required class="info-date__list info-date__list_time">
+                      <option value="" disabled selected hidden class="info-date__item">Время</option> <!--отображается как плейсхолдер-->
+                      <option value="10:00" class="info-date__item">10:00</option>
+                      <option value="14:00" class="info-date__item">14:00</option>
+                    </select>                    
+                  </div>
 
-
-                <label class="info-date__label">
-                  Время
-                  <input type="time" name="time" required class="info-date__input">
-                </label> -->
-                <select name="date" required class="info-date__list">
-                  <option value="" disabled selected hidden class="info-date__item">Дата</option> <!--отображается как плейсхолдер-->
-                  <option value="11.09.2024" class="info-date__item">11.09.2024</option>
-                  <option value="20.09.2024" class="info-date__item">20.09.2024</option>
-                </select>
-
-                <select name="numberOfPerson" required class="info-date__list_time">
-                  <option value="" disabled selected hidden class="info-date__item">Время</option> <!--отображается как плейсхолдер-->
-                  <option value="10:00" class="info-date__item">10:00</option>
-                  <option value="14:00" class="info-date__item">14:00</option>
-                </select>
-
-                <select name="numberOfPerson" required class="form-information__list">
-                  <option value="" disabled selected hidden class="form-information__item">Сколько человек</option> <!--отображается как плейсхолдер-->
-                  <option value="one" class="form-information__item">1</option>
-                  <option value="two" class="form-information__item">2</option>
-                  <option value="three" class="form-information__item">3</option>
-                  <option value="four" class="form-information__item">4</option>
-                  <option value="five" class="form-information__item">5</option>
-                </select>
-              </fieldset>
-
-              <fieldset class="form-information__info-person info-person">
-                <label class="info-person__label">
-                  Имя
-                  <input type="text" name="firstName" required class="info-person__input">
-                </label>
-
-                <label class="info-person__label">
-                  Фамилия
-                  <input type="text" name="lastName" required class="info-person__input">
-                </label>
-              </fieldset>
-
-              <fieldset class="form-information__info-contacts info-contacts">
-                <label class="info-contacts__label">
-                  Телефон
-                  <input type="tel" name="phoneNumber" required pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" class="info-contacts__input">
-                </label>
-
-                <label class="info-contacts__label">
-                  E-mail
-                  <input type="email" name="email" required class="info-contacts__input">
-                </label>
-              </fieldset>
-              <!-- <input type="checkbox" required title="Подтвердите, что вам есть 18 лет">Я старше 18 лет -->
+                  <select name="numberOfPerson" required class="form-information__list">
+                    <option value="" disabled selected hidden class="form-information__item">Сколько человек</option> <!--отображается как плейсхолдер-->
+                    <option value="one" class="form-information__item">1</option>
+                    <option value="two" class="form-information__item">2</option>
+                    <option value="three" class="form-information__item">3</option>
+                    <option value="four" class="form-information__item">4</option>
+                    <option value="five" class="form-information__item">5</option>
+                  </select>
+                </fieldset>
+  
+                <fieldset class="form-information__info-person info-person">
+                  <label class="info-person__label">
+                    Имя
+                    <input type="text" name="firstName" required class="info-person__input">
+                  </label>
+  
+                  <label class="info-person__label">
+                    Фамилия
+                    <input type="text" name="lastName" required class="info-person__input">
+                  </label>
+                </fieldset>
+  
+                <fieldset class="form-information__info-contacts info-contacts">
+                  <label class="info-contacts__label">
+                    Телефон
+                    <input type="tel" name="phoneNumber" required pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$" class="info-contacts__input">
+                  </label>
+  
+                  <label class="info-contacts__label">
+                    E-mail
+                    <input type="email" name="email" required class="info-contacts__input">
+                  </label>
+                </fieldset>
+                <!-- <input type="checkbox" required title="Подтвердите, что вам есть 18 лет">Я старше 18 лет -->
+              </div>
             </fieldset>
             <div class="form__reservation">
               <button type="submit" class="form__btn">Забронировать</button>

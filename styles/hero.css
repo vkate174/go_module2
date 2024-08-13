@@ -26,6 +26,21 @@
     line-height: 50px;
     padding-left: 100px;
     width: 100%;
+    margin-bottom: 30px;
+}
+
+.banner__advantages {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 150px;
+
+}
+
+.banner__hall {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 193px;
 }
 
 .banner__four {
@@ -35,8 +50,16 @@
     font-weight: 900;
     line-height: 141px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
 }
+
+.banner__equipment {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 166px;
+}
+
 .banner__new {
     color: rgb(205, 6, 255);
     font-family: Arial;
@@ -44,24 +67,43 @@
     font-weight: 900;
     line-height: 106px;
     letter-spacing: 0%;
-    text-align: left;
-    text-transform: uppercase;
+    font-variant: small-caps;
+}
+
+.banner__text {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .banner__btn {
     border-radius: 10px;
-    background: rgb(108, 2, 135);
     padding: 25px 69px;
+    background: rgb(108, 2, 135);
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
 }
 
 .banner__down {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     margin-bottom: 90px;
-
+    height: 144px;
 }
 
 .banner__down-img {
     z-index: 1;
+    
 }

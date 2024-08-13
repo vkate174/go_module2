@@ -1,4 +1,4 @@
-.section__form {
+.section_form {
   background-color: var(--main-purple);
   padding: 80px 0;
 }
@@ -17,7 +17,7 @@
   text-align: left;
 }
 
-.lable {
+.form__label {
   color: rgb(255, 255, 255);
   font-family: Arial;
   font-size: 22px;
@@ -25,6 +25,12 @@
   line-height: 25px;
   letter-spacing: 0%;
   text-align: left;
+  display: flex; 
+  align-items: center;
+}
+
+.form__input {
+  margin-right: 12px;
 }
 
 
@@ -38,11 +44,12 @@
 }
 
 .bordGame__label{
-
+  display: flex; 
+  align-items: center;
 }
 
 .bordGame__legend{
-
+  margin-bottom: 24px;
 }
 
 .consoles{
@@ -50,13 +57,19 @@
 }
 
 .consoles__input{
-  margin-right: 12px;
   width: 27px;
   height: 27px;
 }
 
 .consoles__label{
-
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  display: flex; 
+  
 }
 
 .consoles__legend{
@@ -64,9 +77,7 @@
 }
 
 .consoles__list {
-  /* display: flex;
-  flex-direction: column;
-  gap: 20px; */
+
 }
 
 .form__list {
@@ -89,7 +100,7 @@
 }
 
 .extra__legend{
-
+  margin-bottom: 23px;
 }
 
 .form{
@@ -121,6 +132,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  cursor: pointer;
 
 }
 
@@ -133,20 +145,47 @@
 
 }
 
+.info-date__list {
+  width: 134px;
+  appearance: none;
+  background: url('../img/select.svg') no-repeat rgb(255, 255, 255) calc(100% - 7px);
+  background-position-x: calc(100% - 27px);
+  height: 52px;
+}
+
 .form-information {
   
 }
 
-.form-information__info-contacts{
+.form-information__body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
 
+.form-information__info-contacts{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .form-information__info-date{
-
+  display: flex;
+  flex-direction: column;
+  color: rgb(33, 30, 30);
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+  gap: 36px;
 }
 
 .form-information__info-person{
-
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .form-information__item{
@@ -157,8 +196,18 @@
 
 }
 
-.form-information__list{
+.form-information__list {
+  width: 300px;
+  height: 52px;
+  appearance: none;
+  background: url('../img/select.svg') no-repeat rgb(255, 255, 255) calc(100% - 7px);
+  background-position-x: calc(100% - 27px);
+  padding: 12px 0 12px 20px;
 
+}
+.info-datetime {
+  display: flex;
+  gap: 32px;
 }
 
 .form-kit{
@@ -182,7 +231,7 @@
 
 
 .form-kit__legend{
-
+  
 }
 
 .form__body {
@@ -193,10 +242,11 @@
 
 }
 
-.form__reservation{
+.form__reservation {
   display: flex;
   justify-content: flex-end;
-  }
+  padding-right: 100px;
+}
 
 .form__btn {
   border-radius: 10px;
@@ -217,11 +267,22 @@
 }
 
 .info-contacts__input{
-
+  width: 300px;
+  height: 52px;
 }
 
 .info-contacts__label{
-
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 .info-date{
@@ -229,7 +290,6 @@
 }
 
 .info-date__input {
-
 
 }
 
@@ -243,11 +303,20 @@
 }
 
 .info-person__input{
-
+  width: 280px;
+  height: 52px;
 }
 
 .info-person__label{
-
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 .form-kit__inventory {
@@ -264,4 +333,4 @@
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 40px;
-  }
+}
