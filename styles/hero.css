@@ -44,12 +44,10 @@
 }
 
 .banner__four {
-    color: rgb(205, 6, 255);
-    font-family: Arial;
+    color: var(--main-purple-light);
     font-size: 100px;
     font-weight: 900;
     line-height: 141px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
@@ -61,31 +59,23 @@
 }
 
 .banner__new {
-    color: rgb(205, 6, 255);
-    font-family: Arial;
+    color: var(--main-purple-light);
     font-size: 75px;
     font-weight: 900;
     line-height: 106px;
-    letter-spacing: 0%;
     font-variant: small-caps;
 }
 
 .banner__text {
-    color: rgb(255, 255, 255);
-    font-family: Arial;
     font-size: 30px;
-    font-weight: 400;
     line-height: 34px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
 .banner__btn {
     border-radius: 10px;
     padding: 25px 69px;
-    background: rgb(108, 2, 135);
-    color: rgb(255, 255, 255);
-    font-family: Arial;
+    background: var(--main-menu-bg);
     font-size: 26px;
     font-weight: 700;
     line-height: 30px;
@@ -105,5 +95,5 @@
 
 .banner__down-img {
     z-index: 1;
-    
+
 }

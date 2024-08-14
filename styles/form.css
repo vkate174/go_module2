@@ -8,29 +8,32 @@
 }
 
 .legend {
-  color: rgb(255, 255, 255);
-  font-family: Arial;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
-  letter-spacing: 0%;
-  text-align: left;
 }
 
+.form__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
 .form__label {
-  color: rgb(255, 255, 255);
-  font-family: Arial;
   font-size: 22px;
   font-weight: 400;
   line-height: 25px;
-  letter-spacing: 0%;
-  text-align: left;
-  display: flex; 
+  display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .form__input {
   margin-right: 12px;
+  cursor: pointer;
 }
 
 
@@ -61,14 +64,7 @@
   height: 27px;
 }
 
-.consoles__label{
-  color: rgb(255, 255, 255);
-  font-family: Arial;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 25px;
-  letter-spacing: 0%;
-  display: flex; 
+.consoles__label {
   
 }
 
@@ -116,17 +112,14 @@
 }
 
 .form-halls__label {
-  color: black;
   border-radius: 8px;
-  background: rgb(255, 255, 255);
+  background: var(--main-color);
   width: 250px;
   height: 55px;
-  color: rgb(0, 0, 0);
-  font-family: Arial;
+  color: var(--main-very-dark);
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
-  letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
   justify-content: center;
@@ -137,20 +130,19 @@
 }
 
 .form-halls__list {
-  /* border-radius: 8px;
-  background: rgb(255, 255, 255); */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
 
 .info-date__list {
   width: 134px;
   appearance: none;
-  background: url('../img/select.svg') no-repeat rgb(255, 255, 255) calc(100% - 7px);
+  background: url('../img/select.svg') no-repeat rgb(255, 255, 255) center;
   background-position-x: calc(100% - 27px);
   height: 52px;
+  padding: 12px 0 12px 20px;
+  cursor: pointer;
 }
 
 .form-information {
@@ -159,8 +151,9 @@
 
 .form-information__body {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-end;
+  column-gap: 50px;
 }
 
 .form-information__info-contacts{
@@ -172,13 +165,8 @@
 .form-information__info-date{
   display: flex;
   flex-direction: column;
-  color: rgb(33, 30, 30);
-  font-family: Arial;
   font-size: 18px;
-  font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0%;
-  text-align: left;
   gap: 36px;
 }
 
@@ -200,9 +188,10 @@
   width: 300px;
   height: 52px;
   appearance: none;
-  background: url('../img/select.svg') no-repeat rgb(255, 255, 255) calc(100% - 7px);
+  background: url('../img/select.svg') no-repeat rgb(255, 255, 255) center;
   background-position-x: calc(100% - 27px);
   padding: 12px 0 12px 20px;
+  cursor: pointer;
 
 }
 .info-datetime {
@@ -250,14 +239,11 @@
 
 .form__btn {
   border-radius: 10px;
-  background: rgb(255, 255, 255);
-  color: rgb(108, 2, 135);
-  font-family: Arial;
+  background: var(--main-color);
+  color: var(--main-menu-bg);
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
-  letter-spacing: 0%;
-  text-align: left;
   text-transform: uppercase;
   padding: 16px 50px;
 }
@@ -269,20 +255,17 @@
 .info-contacts__input{
   width: 300px;
   height: 52px;
+  cursor: pointer;
 }
 
 .info-contacts__label{
   display: flex;
   flex-direction: column;
-  display: flex;
-  flex-direction: column;
-  color: rgb(255, 255, 255);
-  font-family: Arial;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
-  letter-spacing: 0%;
-  text-align: left;
+  margin-bottom: 6px;
+  cursor: pointer;
 }
 
 .info-date{
@@ -305,32 +288,20 @@
 .info-person__input{
   width: 280px;
   height: 52px;
+  cursor: pointer;
 }
 
 .info-person__label{
   display: flex;
   flex-direction: column;
-  color: rgb(255, 255, 255);
-  font-family: Arial;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
-  letter-spacing: 0%;
-  text-align: left;
+  margin-bottom: 6px;
+  cursor: pointer;
 }
 
 .form-kit__inventory {
   display: flex;
   justify-content: space-around;
-}
-
-.form__title {
-  color: rgb(255, 255, 255);
-  font-family: Arial;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: center;
-  margin-bottom: 40px;
 }

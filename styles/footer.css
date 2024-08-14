@@ -7,8 +7,6 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 156px;
-  /* flex-direction: column; */
-  /* align-content: space-between; */
 }
 
 .contacts__list {
@@ -105,12 +103,7 @@
 .footer__info {
   display: flex;
   justify-content: space-between;
-  color: rgb(255, 255, 255);
-  font-family: Arial;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  letter-spacing: 0%;
 }
 
 .footer-info-developer {

@@ -27,13 +27,8 @@
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  color: rgb(255, 255, 255);
-  font-family: Arial;
   font-size: 22px;
-  font-weight: 400;
   line-height: 50px;
-  letter-spacing: 0%;
-  /* text-align: center; */
   text-transform: uppercase;
   height: 100%;
   width: 100%;
@@ -42,22 +37,13 @@
 }
 
 .header__btn {
-  box-sizing: border-box;
-  border: 3px solid rgb(205, 6, 255);
+  border: 3px solid var(--main-purple-light);
   border-radius: 10px;
-  color: rgb(255, 255, 255);
-  font-family: Arial;
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
-  letter-spacing: 0%;
-  text-align: left;
   text-transform: uppercase;
-  /* display: flex; */
-  /* align-items: center;
-  justify-content: center; */
   padding: 12px 32px 13px;
-  /* flex-basis: 280px; */
   margin-top: 8px;
   margin-bottom: 3px;
 }
