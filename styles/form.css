@@ -64,6 +64,13 @@
   height: 27px;
 }
 
+
+.consoles__input::after {
+  /* box-sizing: border-box; */
+  border: 1px solid rgb(205, 6, 255);
+}
+
+
 .consoles__label {
   
 }
@@ -258,6 +265,12 @@
   cursor: pointer;
 }
 
+.info-contacts__input:focus {
+  box-sizing: border-box;
+  border: 2px solid rgb(205, 6, 255);
+  background: rgb(255, 255, 255);
+}
+
 .info-contacts__label{
   display: flex;
   flex-direction: column;
@@ -291,6 +304,12 @@
   cursor: pointer;
 }
 
+.info-person__input:focus {
+  /* box-sizing: border-box; */
+  border: 2px solid rgb(205, 6, 255);
+  /* outline: rgb(205, 6, 255); */
+}
+
 .info-person__label{
   display: flex;
   flex-direction: column;
@@ -304,4 +323,8 @@
 .form-kit__inventory {
   display: flex;
   justify-content: space-around;
+}
+
+.info-contacts__tel:focus {
+  border: 2px solid rgb(205, 6, 255);
 }

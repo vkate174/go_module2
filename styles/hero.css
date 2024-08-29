@@ -85,6 +85,14 @@
     position: absolute;
 }
 
+.banner__btn:hover, .banner__btn:focus {
+    background: rgb(132, 10, 163);
+}
+
+.banner__btn:active {
+    background: rgb(100, 10, 163);
+}
+
 .banner__down {
     display: flex;
     justify-content: center;
@@ -96,4 +104,10 @@
 .banner__down-img {
     z-index: 1;
 
+}
+
+.banner__down:active {
+    /* box-sizing: border-box; */
+    border: 1px solid rgb(205, 6, 255);
+    background: rgb(205, 6, 255);
 }
