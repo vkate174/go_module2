@@ -24,18 +24,33 @@
   margin-bottom: 0;
 }
 
-.questions__item:nth-child(odd):after,.questions__item:nth-child(even):after {
+/* .questions__item:nth-child(odd):after,.questions__item:nth-child(even):after {
   content: "";
   width: 46px;
   height: 46px;
   display: block;
-}
-.questions__item:nth-child(odd):after {
+} */
+/* .questions__item:nth-child(odd):after {
   background-image: url("../img/open-purple.svg");
-}
+} */
 
 .questions__item:nth-child(even):after {
   background-image: url("../img/open.svg");
 } 
 
 
+.svg-purple:hover path {
+  fill: rgb(255, 255, 255);
+}
+
+.svg-purple:hover circle {
+  stroke: rgb(108, 2, 135);
+} 
+
+.svg-purple:hover rect {
+  fill: rgb(108, 2, 135);
+}
+
+.svg-purple:active .svg-purple__path {
+  fill: rgb(255, 255, 255);
+}

@@ -95,7 +95,9 @@
 
 .social__link:focus {
   color: rgb(234, 222, 237);
-  border-radius: 30%;
+  border-radius: 50%;
+  /* outline-offset:0; */
+  /* stroke-linejoin: round; */ */
   border: 1px solid rgb(205, 6, 255);
 }
 

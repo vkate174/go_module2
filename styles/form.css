@@ -118,6 +118,25 @@
   opacity:0;
 }
 
+.form-halls__label:hover {
+  border: 3px solid rgb(100, 10, 163);
+  border-radius: 8px;
+  background: rgb(234, 222, 237);
+}
+
+.form-halls__label:active {
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(108, 2, 135);
+  color: rgb(255, 255, 255);
+}
+
+.form-halls__label:focus {
+  border: 3px solid rgb(100, 10, 163);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
 .form-halls__label {
   border-radius: 8px;
   background: var(--main-color);
@@ -253,6 +272,35 @@
   line-height: 28px;
   text-transform: uppercase;
   padding: 16px 50px;
+  border: 3px solid var(--main-color);
+}
+
+.form__btn:hover {
+  /* border: 3px solid rgb(108, 2, 135);
+  background: rgb(234, 222, 237);
+  color: rgb(108, 2, 135); */
+  outline: 3px solid rgb(108, 2, 135);
+  border-radius: 10px;
+  background: rgb(234, 222, 237);
+}
+
+.form__btn:focus {
+  /* border: 3px solid rgb(108, 2, 135);
+  background: rgb(234, 222, 237);
+  color: rgb(108, 2, 135); */
+/* 
+  border: 3px solid rgb(108, 2, 135);
+  border-radius: 10px; 
+  background: rgb(255, 255, 255); */
+  outline: 3px solid rgb(108, 2, 135);
+  /* border: rgb(108, 2, 135); */
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.form__btn:active {
+  border-radius: 10px;
+  background: rgb(234, 222, 237);
 }
 
 .info-contacts{
@@ -271,7 +319,7 @@
   background: rgb(255, 255, 255);
 }
 
-.info-contacts__label{
+.info-contacts__label {
   display: flex;
   flex-direction: column;
   font-size: 14px;
@@ -325,6 +373,27 @@
   justify-content: space-around;
 }
 
-.info-contacts__tel:focus {
+.info-contacts__input:focus {
+  outline: none;
   border: 2px solid rgb(205, 6, 255);
 }
+
+.info-person__input:focus {
+  outline: none;
+  border: 2px solid rgb(205, 6, 255);
+}
+
+.form-information__list:focus {
+  outline: none;
+  border: 2px solid rgb(205, 6, 255);
+}
+
+.info-date__list:focus {
+  outline: none;
+  border: 2px solid rgb(205, 6, 255);
+}
+
+.form__input:focus {
+  outline: 1px solid rgb(205, 6, 255);
+}
+
