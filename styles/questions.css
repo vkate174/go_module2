@@ -34,9 +34,9 @@
   background-image: url("../img/open-purple.svg");
 } */
 
-.questions__item:nth-child(even):after {
+/* .questions__item:nth-child(even):after {
   background-image: url("../img/open.svg");
-} 
+}  */
 
 
 .svg-purple:hover path {
@@ -52,5 +52,21 @@
 }
 
 .svg-purple:active .svg-purple__path {
+  fill: rgb(255, 255, 255);
+}
+
+.svg-white:hover path {
+  fill: rgb(108, 2, 135);
+}
+
+.svg-white:hover circle {
+  stroke: rgb(255, 255, 255);
+} 
+
+.svg-white:hover rect {
+  fill: rgb(255, 255, 255);
+}
+
+.svg-white:active .svg-white__path {
   fill: rgb(255, 255, 255);
 }

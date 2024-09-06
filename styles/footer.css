@@ -83,6 +83,8 @@
   height: 50px;
   display: block; 
   color: rgb(255, 255, 255);
+  outline: 1px solid transparent;
+  /* outline-offset: 3px; */
 }
 
 .social__link:hover {
@@ -91,14 +93,11 @@
 
 .social__link:active {
   color: rgb(205, 6, 255);
+  outline: none;
 }
 
 .social__link:focus {
-  color: rgb(234, 222, 237);
-  border-radius: 50%;
-  /* outline-offset:0; */
-  /* stroke-linejoin: round; */ */
-  border: 1px solid rgb(205, 6, 255);
+  outline-color: rgb(205, 6, 255);
 }
 
 /* .social__link_vk {
@@ -106,7 +105,7 @@
 
 } */
 
-.social__link_tg {
+/* .social__link_tg {
   background-image: url("../img/socialTelegram.svg");
 }
 
@@ -116,7 +115,7 @@
 
 .social__link_stum {
   background-image: url("../img/socialStumbleupon.svg");
-}
+} */
 
 .footer__info {
   display: flex;

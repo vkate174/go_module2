@@ -94,47 +94,112 @@
 }
 
 .banner__down {
+    /* display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    /* margin-bottom: 90px;
+    height: 144px;
+    color: aliceblue; */ */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.class {
+    /* height: 144px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    z-index: 1;
+    position: relative;
+    margin-bottom: 90px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-bottom: 90px;
     height: 144px;
-
 }
 
-.banner__down-img {
-    z-index: 1;
-    /* fill:currentColor; */
-}
+.banner__down {
+    outline: 1px solid transparent;
+    outline-offset: 2px;
+} 
 
-/* .banner__down:hover {
-    color: rgb(255, 255, 255);
-    /* color: rgb(108, 2, 135); */
-/* }
-
-.banner__down-img:active {
-    /* box-sizing: border-box; */
-    /* border: 1px solid rgb(205, 6, 255);
-    background: rgb(205, 6, 255); */
-    fill: currentColor;
-} */ */
-
-.banner__down-img:hover {
-    fill: rgb(255, 255, 255);
-}
-
-.banner__down-img_circle:hover {
-    fill: rgb(255, 255, 255);
-}
-
-.banner__down-img_rect:hover {
+.banner__down:hover rect{
     fill: rgb(108, 2, 135);
 }
 
-.banner__down-img_circle:active {
+.banner__down:hover circle{
+    fill: rgb(255, 255, 255);
+}
+
+.banner__down:active rect{
+    fill: rgb(255, 255, 255);
+}
+
+.banner__down:active circle{
+    fill: rgb(205, 6, 255);
+    stroke: rgb(205, 6, 255);
+    outline: none;
+}
+
+.banner__down:focus{
+    outline-color: rgb(205, 6, 255);
+    /* outline-offset: 2px;
+    fill: rgb(255, 255, 255);
+    stroke: rgb(255, 255, 255); */
+}
+
+
+/* .bunner__down:hover path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .bunner__down:hover circle {
+    stroke: rgb(108, 2, 135);
+  } 
+  
+  .svg-purple:hover rect {
+    fill: rgb(108, 2, 135);
+  }
+  
+  .svg-purple:active .svg-purple__path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .svg-white:hover path {
+    fill: rgb(108, 2, 135);
+  }
+  
+  .svg-white:hover circle {
+    stroke: rgb(255, 255, 255);
+  } 
+  
+  .svg-white:hover rect {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .svg-white:active .svg-white__path {
+    fill: rgb(255, 255, 255);
+  } */
+
+/* .banner__down:hover {
+    fill: rgb(255, 255, 255);
+}
+
+.banner__down:hover {
+    fill: rgb(255, 255, 255);
+}
+
+.banner__down:hover {
+    fill: rgb(108, 2, 135);
+}
+
+.banner__down:active {
     fill: rgb(205, 6, 255);
 }
 
-.banner__down-img_rect:active {
+.banner__down:active {
     fill:rgb(255, 255, 255);
-}
+} */
