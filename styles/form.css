@@ -66,7 +66,6 @@
 
 
 .consoles__input::after {
-  /* box-sizing: border-box; */
   border: 1px solid rgb(205, 6, 255);
 }
 
@@ -273,33 +272,21 @@
   text-transform: uppercase;
   padding: 16px 50px;
   border: 3px solid var(--main-color);
+  height: 60px;
 }
 
 .form__btn:hover {
-  /* border: 3px solid rgb(108, 2, 135);
-  background: rgb(234, 222, 237);
-  color: rgb(108, 2, 135); */
-  outline: 3px solid rgb(108, 2, 135);
-  border-radius: 10px;
+  border-color: rgb(108, 2, 135);
   background: rgb(234, 222, 237);
 }
 
 .form__btn:focus {
-  /* border: 3px solid rgb(108, 2, 135);
-  background: rgb(234, 222, 237);
-  color: rgb(108, 2, 135); */
-/* 
-  border: 3px solid rgb(108, 2, 135);
-  border-radius: 10px; 
-  background: rgb(255, 255, 255); */
-  outline: 3px solid rgb(108, 2, 135);
-  /* border: rgb(108, 2, 135); */
-  border-radius: 10px;
+  border-color: rgb(108, 2, 135);
   background: rgb(255, 255, 255);
 }
 
 .form__btn:active {
-  border-radius: 10px;
+  border-color: rgb(234, 222, 237);
   background: rgb(234, 222, 237);
 }
 
@@ -353,9 +340,7 @@
 }
 
 .info-person__input:focus {
-  /* box-sizing: border-box; */
   border: 2px solid rgb(205, 6, 255);
-  /* outline: rgb(205, 6, 255); */
 }
 
 .info-person__label{

@@ -49,11 +49,11 @@
 }
 
 .header__btn:hover, .header__btn:focus {
-  border: rgb(108, 2, 135);
+  border-color: rgb(108, 2, 135);
   background: rgb(108, 2, 135);
 }
 
 .header__btn:active {
-  border: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
   background: rgb(100, 10, 163);
 }

@@ -94,112 +94,41 @@
 }
 
 .banner__down {
-    /* display: flex;
-    justify-content: center;
-    /* align-items: flex-end; */
-    /* margin-bottom: 90px;
-    height: 144px;
-    color: aliceblue; */ */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-
-}
-
-.class {
-    /* height: 144px ;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
     z-index: 1;
     position: relative;
     margin-bottom: 90px;
+    width: 97px;
     display: flex;
-    justify-content: center;
     align-items: flex-end;
     height: 144px;
+    margin: 0 auto;
 }
 
-.banner__down {
+.banner__down-btn {
     outline: 1px solid transparent;
     outline-offset: 2px;
+    z-index: 1;
+    position: relative;
 } 
 
-.banner__down:hover rect{
+.banner__down-btn:hover rect{
     fill: rgb(108, 2, 135);
 }
 
-.banner__down:hover circle{
+.banner__down-btn:hover circle{
     fill: rgb(255, 255, 255);
 }
 
-.banner__down:active rect{
+.banner__down-btn:active rect{
     fill: rgb(255, 255, 255);
 }
 
-.banner__down:active circle{
+.banner__down-btn:active circle{
     fill: rgb(205, 6, 255);
     stroke: rgb(205, 6, 255);
     outline: none;
 }
 
-.banner__down:focus{
+.banner__down-btn:focus{
     outline-color: rgb(205, 6, 255);
-    /* outline-offset: 2px;
-    fill: rgb(255, 255, 255);
-    stroke: rgb(255, 255, 255); */
 }
-
-
-/* .bunner__down:hover path {
-    fill: rgb(255, 255, 255);
-  }
-  
-  .bunner__down:hover circle {
-    stroke: rgb(108, 2, 135);
-  } 
-  
-  .svg-purple:hover rect {
-    fill: rgb(108, 2, 135);
-  }
-  
-  .svg-purple:active .svg-purple__path {
-    fill: rgb(255, 255, 255);
-  }
-  
-  .svg-white:hover path {
-    fill: rgb(108, 2, 135);
-  }
-  
-  .svg-white:hover circle {
-    stroke: rgb(255, 255, 255);
-  } 
-  
-  .svg-white:hover rect {
-    fill: rgb(255, 255, 255);
-  }
-  
-  .svg-white:active .svg-white__path {
-    fill: rgb(255, 255, 255);
-  } */
-
-/* .banner__down:hover {
-    fill: rgb(255, 255, 255);
-}
-
-.banner__down:hover {
-    fill: rgb(255, 255, 255);
-}
-
-.banner__down:hover {
-    fill: rgb(108, 2, 135);
-}
-
-.banner__down:active {
-    fill: rgb(205, 6, 255);
-}
-
-.banner__down:active {
-    fill:rgb(255, 255, 255);
-} */
