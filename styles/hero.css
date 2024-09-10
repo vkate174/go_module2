@@ -131,4 +131,5 @@
 
 .banner__down-btn:focus{
     outline-color: rgb(205, 6, 255);
+    transition-duration: 4.5s;
 }

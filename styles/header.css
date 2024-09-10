@@ -51,9 +51,11 @@
 .header__btn:hover, .header__btn:focus {
   border-color: rgb(108, 2, 135);
   background: rgb(108, 2, 135);
+  transition-duration: 0.5s;
 }
 
 .header__btn:active {
   border-color: rgb(0, 0, 0);
   background: rgb(100, 10, 163);
+  transition-duration: 0.2s;
 }
