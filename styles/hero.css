@@ -87,10 +87,12 @@
 
 .banner__btn:hover, .banner__btn:focus {
     background: rgb(132, 10, 163);
+    transition-duration: 0.5s;
 }
 
 .banner__btn:active {
     background: rgb(100, 10, 163);
+    transition-duration: 0.5s;
 }
 
 .banner__down {
@@ -113,23 +115,27 @@
 
 .banner__down-btn:hover rect{
     fill: rgb(108, 2, 135);
+    transition-duration: 0.2s;
 }
 
 .banner__down-btn:hover circle{
     fill: rgb(255, 255, 255);
+    transition-duration: 0.5s;
 }
 
 .banner__down-btn:active rect{
     fill: rgb(255, 255, 255);
+    transition-duration: 0.5s;
 }
 
 .banner__down-btn:active circle{
     fill: rgb(205, 6, 255);
     stroke: rgb(205, 6, 255);
     outline: none;
+    transition-duration: 0.5s;
 }
 
 .banner__down-btn:focus{
     outline-color: rgb(205, 6, 255);
-    transition-duration: 4.5s;
+    transition-duration: 0.5s;
 }

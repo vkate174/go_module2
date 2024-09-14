@@ -88,15 +88,18 @@
 
 .social__link:hover {
   color: rgb(234, 222, 237);
+  transition-duration: 0.5s;
 }
 
 .social__link:active {
   color: rgb(205, 6, 255);
   outline: none;
+  transition-duration: 0.5s;
 }
 
 .social__link:focus {
   outline-color: rgb(205, 6, 255);
+  transition-duration: 0.5s;
 }
 
 /* .social__link_vk {
@@ -134,4 +137,9 @@
   display: block;
   width: 157px;
   text-align: end;
+}
+
+.footer__developer-link:hover {
+  color: rgb(108, 2, 135);
+  transition-duration: 0.5s;
 }

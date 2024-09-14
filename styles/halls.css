@@ -16,7 +16,7 @@
 }
 
 .halls__link {
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -28,6 +28,11 @@
     margin: 0 auto;
     background-repeat: no-repeat;
     text-align: center;
+}
+
+.halls__link:hover {
+    color: rgb(108, 2, 135);
+    transition-duration: 0.5s;
 }
 
 .halls__list {
