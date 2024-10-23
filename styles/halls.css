@@ -31,7 +31,7 @@
 }
 
 .halls__link:hover {
-    color: rgb(108, 2, 135);
+    color: var(--main-menu-bg);
     transition-duration: 0.5s;
 }
 

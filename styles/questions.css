@@ -4,8 +4,8 @@
 
 
 .questions__item {
-  background-color: #fff; /*цвет фона*/
-  color: #1C1A1A; /*цвет текста*/
+  background-color: var(--main-color); /*цвет фона*/
+  color: var(--graphite-black); /*цвет текста*/
   font-weight: 700; /*вес(жирность) шрифта*/
   font-size: 24px; /*размер шрифта*/
   padding: 30px 70px; /*внутренние отступы в самом элементе по вертикали и горизонтали*/
@@ -17,8 +17,8 @@
 }
 
 .questions__item:nth-child(2n) {
-  color: #fff;             /*цвет текста*/
-  background-color: #440F51; /*цвет фона*/
+  color: var(--main-color);             /*цвет текста*/
+  background-color: var(--main-purple); /*цвет фона*/
 }
 
 .questions__item:last-child {
@@ -41,41 +41,41 @@
 
 
 .svg-purple:hover path {
-  fill: rgb(255, 255, 255);
+  fill: var(--main-color);
   transition-duration: 0.2s;
 }
 
 .svg-purple:hover circle {
-  stroke: rgb(108, 2, 135);
+  stroke: var(--main-menu-bg);
   transition-duration: 0.5s;
 } 
 
 .svg-purple:hover rect {
-  fill: rgb(108, 2, 135);
+  fill: var(--main-menu-bg);
   transition-duration: 0.5s;
 }
 
 .svg-purple:active .svg-purple__path {
-  fill: rgb(255, 255, 255);
+  fill: var(--main-color);
   transition-duration: 0.2s;
 }
 
 .svg-white:hover path {
-  fill: rgb(108, 2, 135);
+  fill: var(--main-menu-bg);
   transition-duration: 0.2s;
 }
 
 .svg-white:hover circle {
-  stroke: rgb(255, 255, 255);
+  stroke: var(--main-color);
   transition-duration: 0.5s;
 } 
 
 .svg-white:hover rect {
-  fill: rgb(255, 255, 255);
+  fill: var(--main-color);
   transition-duration: 0.5s;
 }
 
 .svg-white:active .svg-white__path {
-  fill: rgb(255, 255, 255);
+  fill: var(--main-color);
   transition-duration: 0.2s;
 }

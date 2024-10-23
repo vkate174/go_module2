@@ -1,5 +1,5 @@
 .section-footer {
-  background: linear-gradient(180.00deg, rgb(27, 26, 27),rgb(55, 10, 55) 100%);
+  background: linear-gradient(180.00deg, var(--main-dark), var(--main-gradient) 100%);
   padding-bottom: 10px;
 }
 
@@ -44,7 +44,7 @@
   font-size: 24px;
   line-height: 117%;
   height: 28px;
-  color: #fff;
+  color: var(--main-color);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -82,23 +82,23 @@
   width: 50px;
   height: 50px;
   display: block; 
-  color: rgb(255, 255, 255);
+  color: var(--main-color);
   outline: 1px solid transparent;
 }
 
 .social__link:hover {
-  color: rgb(234, 222, 237);
+  color: var(--main-Color);
   transition-duration: 0.5s;
 }
 
 .social__link:active {
-  color: rgb(205, 6, 255);
+  color: var(--main-purple-light);
   outline: none;
   transition-duration: 0.5s;
 }
 
 .social__link:focus {
-  outline-color: rgb(205, 6, 255);
+  outline-color: var(--main-purple-light);
   transition-duration: 0.5s;
 }
 
@@ -140,6 +140,6 @@
 }
 
 .footer__developer-link:hover {
-  color: rgb(108, 2, 135);
+  color: var(--main-menu-bg);
   transition-duration: 0.5s;
 }

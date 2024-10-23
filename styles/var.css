@@ -1,0 +1,14 @@
+:root {
+  --main-color: rgb(255, 255, 255);
+  --main-dark: #1b1a1b;
+  --main-very-dark: rgb(0, 0, 0);
+  --main-purple: #440F51;
+  --main-purple-light: #CD06FF;
+  --main-menu-bg: rgb(108, 2, 135);
+  --main-Color: rgb(234, 222, 237);
+  --main-gradient: rgb(55, 10, 55);
+  --main-dark-purple: rgb(100, 10, 163);
+  --periwinkle-Crayola: rgb(234, 222, 237);
+  --dark-purple-violet: rgb(132, 10, 163);
+  --graphite-black: #1C1A1A;
+}

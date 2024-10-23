@@ -112,24 +112,24 @@
 }
 
 .form-halls__label:hover {
-  border: 3px solid rgb(100, 10, 163);
+  border: 3px solid var(--main-dark-purple);
   border-radius: 8px;
-  background: rgb(234, 222, 237);
+  background: var(--periwinkle-Crayola);
   transition-duration: 0.2s;
 }
 
 .form-halls__label:active {
-  border: 3px solid rgb(255, 255, 255);
+  border: 3px solid var(--main-color);
   border-radius: 8px;
-  background: rgb(108, 2, 135);
-  color: rgb(255, 255, 255);
+  background: var(--main-menu-bg);
+  color: var(--main-color);
   transition-duration: 0.9s;
 }
 
 .form-halls__label:focus {
-  border: 3px solid rgb(100, 10, 163);
+  border: 3px solid var(--main-dark-purple);
   border-radius: 8px;
-  background: rgb(255, 255, 255);
+  background: var(--main-color);
   transition-duration: 0.5s;
 }
 
@@ -160,7 +160,7 @@
 .info-date__list {
   width: 134px;
   appearance: none;
-  background: url('../img/select.svg') no-repeat rgb(255, 255, 255) center;
+  background: url('../img/select.svg') no-repeat var(--main-color) center;
   background-position-x: calc(100% - 27px);
   height: 52px;
   padding: 12px 0 12px 20px;
@@ -210,7 +210,7 @@
   width: 300px;
   height: 52px;
   appearance: none;
-  background: url('../img/select.svg') no-repeat rgb(255, 255, 255) center;
+  background: url('../img/select.svg') no-repeat var(--main-color) center;
   background-position-x: calc(100% - 27px);
   padding: 12px 0 12px 20px;
   cursor: pointer;
@@ -273,20 +273,20 @@
 }
 
 .form__btn:hover {
-  border-color: rgb(108, 2, 135);
-  background: rgb(234, 222, 237);
+  border-color: var(--main-menu-bg);
+  background: var(--periwinkle-Crayola);
   transition-duration: 0.5s;
 }
 
 .form__btn:focus {
-  border-color: rgb(108, 2, 135);
-  background: rgb(255, 255, 255);
+  border-color: var(--main-menu-bg);
+  background: var(--main-color);
   transition-duration: 0.5s;
 }
 
 .form__btn:active {
-  border-color: rgb(234, 222, 237);
-  background: rgb(234, 222, 237);
+  border-color: var(--periwinkle-Crayola);
+  background: var(--periwinkle-Crayola);
   transition-duration: 0.5s;
 }
 
@@ -302,8 +302,8 @@
 
 .info-contacts__input:focus {
   box-sizing: border-box;
-  border: 2px solid rgb(205, 6, 255);
-  background: rgb(255, 255, 255);
+  border: 2px solid var(--main-purple-light);
+  background: var(--main-color);
   transition-duration: 0.5s;
 }
 
@@ -341,7 +341,7 @@
 }
 
 .info-person__input:focus {
-  border: 2px solid rgb(205, 6, 255);
+  border: 2px solid var(--main-purple-light);
   transition-duration: 0.5s;
 }
 
@@ -362,30 +362,30 @@
 
 .info-contacts__input:focus {
   outline: none;
-  border: 2px solid rgb(205, 6, 255);
+  border: 2px solid var(--main-purple-light);
   transition-duration: 0.5s;
 }
 
 .info-person__input:focus {
   outline: none;
-  border: 2px solid rgb(205, 6, 255);
+  border: 2px solid var(--main-purple-light);
   transition-duration: 0.5s;
 }
 
 .form-information__list:focus {
   outline: none;
-  border: 2px solid rgb(205, 6, 255);
+  border: 2px solid var(--main-purple-light);
   transition-duration: 0.5s;
 }
 
 .info-date__list:focus {
   outline: none;
-  border: 2px solid rgb(205, 6, 255);
+  border: 2px solid var(--main-purple-light);
   transition-duration: 0.5s;
 }
 
 .form__input:focus {
-  outline: 1px solid rgb(205, 6, 255);
+  outline: 1px solid var(--main-purple-light);
   transition-duration: 0.5s;
 }
 

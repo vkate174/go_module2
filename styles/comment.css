@@ -15,12 +15,22 @@
 }
 
 .comment__img {
+  width: 280px; 
+  height: 280px; 
+  position:relative;
+  z-index:-1;
+  display:block;
+}
+
+.comment__client-img {
   float: left;
   margin-right: 20px;
   margin-bottom: 11px;
   width: 280px; 
   height: 280px; 
-
+  display:inline-block;
+  border-radius: 140px;
+  background: radial-gradient(50.00% 50.00% at 50% 50%,rgba(196, 196, 196, 0),rgba(108, 2, 135, 0.5) 100%);
 }
 
 .comment__text {
@@ -36,8 +46,6 @@
 .comments__item {
   margin-top: 50px;
 }
-
-
 
 .comments__list {
   max-width: 980px;

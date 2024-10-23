@@ -24,7 +24,7 @@
 }
 
 .navigation__link:hover {
-  color: rgb(108, 2, 135);
+  color: var(--main-menu-bg);
   transition-duration: 0.5s;
 }
 
@@ -54,13 +54,13 @@
 }
 
 .header__btn:hover, .header__btn:focus {
-  border-color: rgb(108, 2, 135);
-  background: rgb(108, 2, 135);
+  border-color: var(--main-menu-bg);
+  background: var(--main-menu-bg);
   transition-duration: 0.5s;
 }
 
 .header__btn:active {
-  border-color: rgb(0, 0, 0);
-  background: rgb(100, 10, 163);
+  border-color: var(--main-very-dark);
+  background: var(--main-dark-purple);
   transition-duration: 0.5s;
 }

@@ -6,7 +6,7 @@
   position: absolute;
   top: 166px;
   left: 40px;
-  color: rgb(255, 255, 255);
+  color: var(--main-color);
   font-family: Arial;
   font-size: 20px;
   font-weight: 700;
@@ -28,7 +28,7 @@
 .inventory__object:hover {
   transform: scale(1.1);
   transition-duration: 0.5s;
-  box-shadow: 1px 2px 5px -1px white;
+  box-shadow: 1px 2px 5px -1px var(--main-color);
 }
 
 .inventorys {
@@ -43,10 +43,17 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px 20px;
-  /* flex-direction: row; */
 }
 
 .inventorys__title {
 
 }
 
+.inventorys__item_mid {   
+  position: relative;
+  top: 70px;
+}
+
+.inventorys__item_mid-last {
+  margin-bottom: 100px;
+}
